@@ -75,6 +75,10 @@ def get_by_id_doc(request, id):
             "code": 404
         }
         return JsonResponse(response, status=404)
+    
+    
+    
+    
 
 
 
